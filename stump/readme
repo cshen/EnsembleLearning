@@ -1,0 +1,7 @@
+to enable OpenMP multi-thread within Matlab:
+
+thread_num=4;
+unix(['export OMP_NUM_THREADS=' num2str(thread_num) , '-echo']);
+
+
+
